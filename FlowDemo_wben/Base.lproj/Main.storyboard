@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C81h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -18,11 +18,13 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCf-mo-8bz">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <state key="normal" title="Login">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="0.058833211050000001" blue="0.092919697649999994" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="181" y="317" width="38" height="30"/>
+                                    <rect key="frame" x="16" y="96" width="368" height="98"/>
                                 </variation>
                             </button>
                         </subviews>
@@ -41,6 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="304.5" y="387"/>
         </scene>
     </scenes>
 </document>
